@@ -355,7 +355,9 @@ CLAUDE.md            🤖 instructions for coding agents in this repo
 
 ## 🤝 Contributing
 
-PRs and RFCs welcome. Ground rules (see [CLAUDE.md](CLAUDE.md)):
+PRs and RFCs welcome — **start with [CONTRIBUTING.md](CONTRIBUTING.md)** for dev
+setup, the wire-change protocol, the RFC process, and the PR checklist. The
+non-negotiable ground rules (also in [CLAUDE.md](CLAUDE.md)):
 
 - **Fail-closed is an invariant** — `decode` must raise on any violation; no tolerant/repair parsing.
 - **Grammar and decoder must agree** — any wire-syntax change updates `gbnf_from_schema` + `row_validators`, and E6 stays 100/100.
