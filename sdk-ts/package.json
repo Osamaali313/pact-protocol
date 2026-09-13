@@ -1,0 +1,16 @@
+{
+  "name": "pact-wire",
+  "version": "0.1.0",
+  "description": "PACT: prompt-cache-aware, constrained, typed protocol for agent-to-agent communication. Zero-dependency codec + provider-agnostic enforcement loop.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node --test dist-test/test/index.test.js"
+  },
+  "keywords": ["llm", "agents", "a2a", "mcp", "serialization", "constrained-decoding", "anthropic", "openai"],
+  "devDependencies": { "typescript": "^5.4.0", "@types/node": "^20.0.0" }
+}

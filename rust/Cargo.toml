@@ -1,0 +1,10 @@
+[package]
+name = "pact-wire"
+version = "0.1.0"
+edition = "2021"
+description = "PACT wire codec: prompt-cache-aware, constrained, typed A2A protocol"
+license = "Apache-2.0"
+
+[dependencies]
+sha2 = "0.10"
+hex = "0.4"

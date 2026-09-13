@@ -1,0 +1,39 @@
+# ---- secrets / keys (NEVER commit) ----
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+id_rsa*
+
+# ---- research paper artifacts (excluded on purpose) ----
+*.docx
+*.pdf
+*.pptx
+*.ppt
+
+# ---- generated results, figures, paper drafts, data dumps ----
+results/
+
+# ---- build outputs & caches ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+node_modules/
+dist/
+dist-test/
+build/
+target/
+.next/
+*.zip
+*.tsbuildinfo
+
+# ---- OS / editor cruft ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

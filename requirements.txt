@@ -1,0 +1,9 @@
+# offline benchmarks (E1-E6)
+regex
+pyyaml
+matplotlib
+tiktoken    # optional: exact o200k counts when its files are reachable
+
+# live benchmarks (L1-L3) — provider SDKs
+anthropic
+openai

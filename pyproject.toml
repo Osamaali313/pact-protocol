@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pact-protocol"
+version = "0.1.0"
+description = "PACT: prompt-cache-aware, constrained, typed protocol for agent-to-agent and human-to-agent communication"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+authors = [{name = "Attimo Technologies Research"}]
+keywords = ["llm", "agents", "serialization", "constrained-decoding", "a2a", "mcp"]
+dependencies = []
+
+[project.optional-dependencies]
+bench = ["regex", "pyyaml", "matplotlib", "tiktoken"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pact"]
